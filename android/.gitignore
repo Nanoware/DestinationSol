@@ -1,32 +1,14 @@
-## General
-*.log
-hs_err_pid*
-.gradle
-/config/metrics
-/main/prevShip.ini
-/main/settings.ini
-
-## Ignored sub-projects with nested Git roots
-gwt
-
-## GWT
-war/
-html/war/gwt_bree/
-html/gwt-unitCache/
-.apt_generated/
-html/war/WEB-INF/deploy/
-html/war/WEB-INF/classes/
-.gwt/
-gwt-unitCache/
-www-test/
-.gwt-tmp/
-
-## Intellij
+## Android Studio and Intellij and Android in general
+libs/armeabi/
+libs/armeabi-v7a/
+libs/x86/
+gen/
 .idea/
 *.ipr
 *.iws
 *.iml
 out/
+assets/res
 
 # This prop file contains a sdk.dir meant to point to your local Android SDK
 local.properties
