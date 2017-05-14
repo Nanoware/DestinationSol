@@ -4,9 +4,11 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.1.0'
+        classpath 'com.jakewharton.sdkmanager:gradle-plugin:0.12.+'
     }
 }
 
+apply plugin: 'android-sdk-manager'
 // TODO: Examine the switch from plain "android" to this some more
 apply plugin: "com.android.application"
 
