@@ -2,7 +2,7 @@ apply from: 'config/gradle/ide.gradle'
 
 buildscript {
     repositories {
-        mavenCentral()
+        jcenter()
     }
     dependencies {
         // Git plugin for Gradle
@@ -26,7 +26,7 @@ allprojects {
 
 repositories {
     // Good ole Maven central
-    mavenCentral()
+    jcenter()
 
     // Repos for LibGDX
     maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
